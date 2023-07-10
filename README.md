@@ -29,8 +29,8 @@ You will need to have [python](https://www.python.org/downloads/) installed on y
 
 > Get the code
 ```bash
-git clone git@github.com:barduinor/box-python-oauth-template.git
-cd box-python-oauth-template
+git clone git@github.com:barduinor/box-python-events.git
+cd box-python-events
 ```
 
 > Set up your virtual environment
@@ -56,7 +56,8 @@ code .
 
 
 ```bash
-python main.py
+python user_events.py
+python user_events_pooling.py
 ```
 
 The first time you run the application, it should open a web browser window and prompt you to log in to Box. 
@@ -68,4 +69,4 @@ The authorization token last for 60 minutes, and the refresh toke for 60 days.
 If you get stuck, you can delete the .outh.json file and reauthorize the application.
 
 ### Questions
-If you get stuck or have questions, make sure to ask on our [Box Developer Forum](https://support.box.com/hc/en-us/community/topics/360001932973-Platform-and-Developer-Forum)
+If you get stuck or have questions, make sure to ask on our [Box Developer Forum](https://forum.box.com)
