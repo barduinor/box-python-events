@@ -7,6 +7,8 @@ width=40%;>
 # Sample application using the Box Python SDK and oAuth 2.0
 This application is a template to get you started quickly with the Box Python SDK and oAuth 2.0.
 
+# Box User Events
+
 
 ## Box configuration steps
 
